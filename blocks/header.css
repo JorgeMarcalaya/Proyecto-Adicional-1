@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+.header__title {
+    width: 730px;
+    color: #000000;
+    margin-left: 64px;
+    z-index: 1;
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: bold;
+    position: absolute;
+}
+.header__subtitle {
+    position: absolute;
+    z-index: 1;
+    width: 388px;
+    left: 64px;
+    bottom: 30px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.header__link {
+    position: absolute;
+    z-index: 1;
+    width: 388px;
+    left: 64px;
+    bottom: 30px;
+    color: #2f80ed;
+}
+
+.header__main-illustration {
+    width: 756px;
+    height: 608px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

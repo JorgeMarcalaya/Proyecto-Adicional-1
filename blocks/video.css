@@ -1,0 +1,33 @@
+.video {
+    margin-top: 100px;
+    margin-bottom: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 60%;
+    text-align: center;
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+}
+.video__subtitle {
+    margin-top: 0;
+    margin-bottom: 50px;
+    width: 60%;
+    text-align: center;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}
+.video__iframes {
+    display: flex;
+    column-gap: 20px;
+}
+.video__iframe {
+    width: 515px;
+    height: 316px;
+}

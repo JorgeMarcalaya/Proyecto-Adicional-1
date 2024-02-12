@@ -1,0 +1,47 @@
+.digits {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.digits__title {
+    width: 60%;
+    margin: 100px auto 20px;
+    text-align: center;
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+}
+.digits__subtitle {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}
+.digits__table {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 60px auto 100px;
+    justify-content: space-between;
+    row-gap: 60px;
+}
+.digits__table-cell {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    row-gap: 20px;
+}
+.digits__table-heading {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+}
+.digits__table-text {
+    margin: 0;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+}
